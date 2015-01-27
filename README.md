@@ -9,6 +9,14 @@ ZF2-Paginator-Partial
 ##Usage
 
     <?php
-        echo $this->paginationControl($myPaginator, 'Sliding', 'zf2-paginator-partial/paginator', array('route' => 'myRouteName', 'query' => $queryStringParams));
+        echo $this->paginationControl(
+        $myPaginator, 
+        'Sliding', 
+        'zf2-paginator-partial/paginator', 
+        array(
+            'route' => 'myRouteName', 
+            'query' => $queryStringParams
+            )
+        );
     ?>
 
